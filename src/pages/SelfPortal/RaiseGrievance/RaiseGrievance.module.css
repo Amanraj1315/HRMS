@@ -1,0 +1,7 @@
+.outer {
+  width: 90%;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}

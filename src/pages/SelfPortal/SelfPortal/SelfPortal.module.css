@@ -1,0 +1,21 @@
+.input {
+  margin-right: 0.2em;
+  padding-top: 0.2vw;;
+}
+.form {
+  width: 100%;
+  height: 20vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding-top: 1vw;
+  padding-right: 0.2vw;
+}
+.outer {
+  margin-top: 2vh;
+  width: 100%;
+}
+.header {
+  font-size:large;
+  margin-left: 6vw;
+  margin-bottom: 1vw;
+}

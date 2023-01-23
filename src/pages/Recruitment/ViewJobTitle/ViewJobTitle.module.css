@@ -1,0 +1,9 @@
+.main{
+  display: flex;
+  flex-direction: column;
+ 
+  width:fit-content;
+ min-width: 78vw;
+  margin: auto;
+
+}

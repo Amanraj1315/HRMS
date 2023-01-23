@@ -1,0 +1,66 @@
+.modl{
+    color:red;
+    position:absolute;
+    margin:-6% 15%;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    height:70%;
+    width:50%;
+    position:fixed;
+
+}
+
+
+
+.address-textfield-in{
+    height:310px;
+    width:380px;
+    background:#fff;
+    border-radius:10px;
+    text-align:center;
+    overflow: hidden;
+}
+.address-textfield-in-heading{
+    height:18%;
+    width:100%;
+    border-bottom:1px solid rgb(185, 184, 184);
+    background:#f0f2f2;
+    font-weight:bold;
+    padding-top: 9px;
+    color:#3a3939;
+}
+
+.modl input[type="text"]{
+    outline:none;
+    border:2px solid grey;
+    width:90%;
+    height:45px;
+    padding-left:10px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+.modl input[type="date"]{
+    width:90%;
+    outline:none;
+    border:2px solid grey;
+    height:50px;
+    border-radius: 10px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.modl button{
+    margin-left: 10px;
+}
+.modl input[type="text"]:focus{
+    box-shadow:0px 0px 10px black;
+}
+.modl input[type="date"]:focus{
+    box-shadow:0px 0px 10px black;
+}

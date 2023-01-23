@@ -1,0 +1,175 @@
+.saurabh {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.appAside {
+  width: 70%;
+  background-color: whitesmoke;
+}
+
+.appForm {
+  width: 25rem;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 5px 5px 10px rgb(120, 119, 119);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  backdrop-filter: blur(0.25rem);
+  position: relative;
+}
+
+.pageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pageSwitcherItem {
+  background-color: #40434e;
+  color: #9da6b1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.pageSwitcherItem:focus {
+  background-color: #6b5b95;
+}
+.pageSwitcherItem-active {
+  background-color: #6b5b95;
+  color: white;
+}
+
+.pageSwitcherItem:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.pageSwitcherItem:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.formTitle {
+  color: #707c8b;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.formTitleLink {
+  color: #707c8b;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  /* font-family: Georgia, serif; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formTitleLink:first-child {
+  color: #fc6f2b;
+  text-shadow: 1px 1px #fff;
+}
+
+.formTitleLink-active {
+  color: white;
+  border-bottom: 1px solid #6b5b95;
+}
+
+.formField {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.formFieldLabel {
+  font-size: 25px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(232, 217, 210);
+  width: 100%;
+}
+.formFieldInput {
+  border: none;
+  border-bottom: 3px solid white;
+  width: 100%;
+  background-color: transparent;
+  color: rgb(231, 231, 231);
+  outline: none;
+  padding: 5px 10px;
+  transition: 0.8s;
+}
+.formFieldInput:focus {
+  border-bottom: 4px solid #fc6f2b;
+  border-radius: 20px;
+}
+
+.formFieldInput::placeholder {
+  color: #706d6d;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formFieldButton {
+  background-color: rgb(97, 96, 96);
+  color: rgb(253, 76, 0);
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.formFieldButton:hover {
+  background-color: rgb(77, 77, 77);
+  font-size: 25px;
+  /* border-bottom:4px solid #fc6f2b; */
+}
+
+.formFieldLink {
+  color: #66707d;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #6b5b95;
+  padding-bottom: 5px;
+}
+
+.formFieldCheckboxLabel {
+  color: #646f7d;
+  font-size: 0.9em;
+}
+
+.formFieldCheckbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.formFieldTermsLink {
+  color: white;
+  border-bottom: 1px solid #6b5b95;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.body {
+  background-image: url("https://wallpaperaccess.com/full/2180133.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.logo img {
+  height: 70%;
+  width: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,14 @@
+
+    .calender {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: contain;
+        width: 30%;
+        height: 50vh;
+        background: none;
+        align-items: center;
+        border: none;
+        justify-content: center;
+        margin-left: 30%;
+      }

@@ -1,0 +1,21 @@
+.carddisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: none;
+    margin-right: 0;
+    width: auto;
+  }
+  
+  /* @media screen and (max-width:800px) {
+    #carddisplay{
+      float: none;
+      margin-right: 0;
+      width: auto;
+      border: 0;
+      border-bottom: 2px solid #000;
+    }
+    
+  } */
